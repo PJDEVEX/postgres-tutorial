@@ -86,7 +86,7 @@ country = session.query(Country).filter_by(name="United States")
 country.presedent = "Joe Biden"
 
 # commit our session to the database
-session.commit()
+# session.commit()
 
 # query the database to find all countries
 countries = session.query(Country)
